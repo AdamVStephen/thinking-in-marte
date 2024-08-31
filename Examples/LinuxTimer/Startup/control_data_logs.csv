@@ -1,0 +1,1 @@
+#MessageRxTime (uint64)[1],MessageTxTime (uint64)[1],RxBufferOccupancy (uint32)[1],rotor_position_steps (int32)[1],encoder_counter (uint32)[1],motor_ImpuleAmplitude (int32)[1],motor_Direction (uint8)[1],motor_Acceleration (int32)[1],break_Control_Loop (uint8)[1],state (uint8)[1],encoder_position (float32)[1]
