@@ -1,0 +1,250 @@
+m2 from 
+	SCRIPT_DIR=/home/astephen/git-wd/InvertedPendulumTestA/MARTe2-utils/bin 
+	sourcing /home/astephen/git-wd/InvertedPendulumTestA/MARTe2-utils/bin/setenv.sh
+Preserving MARTe2_DIR environment variable 
+MARTe2_DIR is /home/astephen/git-wd/InvertedPendulumTestA/MARTe2
+Preserving MARTe2_Components_DIR environment variable 
+MARTe2_Components_DIR is /home/astephen/git-wd/InvertedPendulumTestA/MARTe2-components
+Main.sh from /home/astephen/github.com/AdamVStephen/thinking-in-marte/Examples/LinuxTimer/Startup
+MARTe2_DIR is /home/astephen/git-wd/InvertedPendulumTestA/MARTe2
+Running in /home/astephen/github.com/AdamVStephen/thinking-in-marte/Examples/LinuxTimer/Startup : ./Main.sh -l RealTimeLoader -f /home/astephen/github.com/AdamVStephen/thinking-in-marte/Examples/LinuxTimer/Configurations/LinuxTimer_1_3.cfg -s State1
+
+	/home/astephen/git-wd/InvertedPendulumTestA/MARTe2/Build/x86-linux/Core/
+	/home/astephen/git-wd/InvertedPendulumTestA/epics-base-7.0.6/lib/linux-x86_64
+	/home/astephen/git-wd/InvertedPendulumTestA/SDN_1.0.12_nonCCS/target/lib/
+	/home/astephen/git-wd/InvertedPendulumTestA/MARTe2/Build/x86-linux/Core/
+	/home/astephen/git-wd/InvertedPendulumTestA/MARTe2-components/Build/x86-linux/Components/DataSources/LinuxTimer/
+	/home/astephen/git-wd/InvertedPendulumTestA/MARTe2-components/Build/x86-linux/Components/DataSources/LoggerDataSource/
+	/home/astephen/git-wd/InvertedPendulumTestA/MARTe2-components/Build/x86-linux/Components/DataSources/DAN/
+	/home/astephen/git-wd/InvertedPendulumTestA/MARTe2-components/Build/x86-linux/Components/DataSources/FileDataSource/
+	/home/astephen/git-wd/InvertedPendulumTestA/MARTe2-components/Build/x86-linux/Components/DataSources/LinkDataSource/
+	/home/astephen/git-wd/InvertedPendulumTestA/MARTe2-components/Build/x86-linux/Components/DataSources/UDP/
+	/home/astephen/git-wd/InvertedPendulumTestA/MARTe2-components/Build/x86-linux/Components/DataSources/RealTimeThreadSynchronisation/
+	/home/astephen/git-wd/InvertedPendulumTestA/MARTe2-components/Build/x86-linux/Components/DataSources/RealTimeThreadAsyncBridge/
+	/home/astephen/git-wd/InvertedPendulumTestA/MARTe2-components/Build/x86-linux/Components/GAMs/ConstantGAM/
+	/home/astephen/git-wd/InvertedPendulumTestA/MARTe2-components/Build/x86-linux/Components/GAMs/ConversionGAM/
+	/home/astephen/git-wd/InvertedPendulumTestA/MARTe2-components/Build/x86-linux/Components/GAMs/IOGAM/
+	/home/astephen/git-wd/InvertedPendulumTestA/MARTe2-components/Build/x86-linux/Components/GAMs/FilterGAM/
+	/home/astephen/git-wd/InvertedPendulumTestA/MARTe2-components/Build/x86-linux/Components/GAMs/HistogramGAM/
+	/home/astephen/git-wd/InvertedPendulumTestA/MARTe2-components/Build/x86-linux/Components/GAMs/SSMGAM/
+	/home/astephen/git-wd/InvertedPendulumTestA/MARTe2-components/Build/x86-linux/Components/GAMs/TriggerOnChangeGAM/
+	/home/astephen/git-wd/InvertedPendulumTestA/MARTe2-components/Build/x86-linux/Components/GAMs/WaveformGAM/
+	/home/astephen/git-wd/InvertedPendulumTestA/MARTe2-components/Build/x86-linux/Components/Interfaces/SysLogger/
+	../Build/x86-linux/Components/DataSources/EduKitSerial
+	../Build/x86-linux/Components/DataSources/RaspPiSerial
+	../Build/x86-linux/Components/DataSources/GPS
+	../Build/x86-linux/Components/DataSources/STM32
+	../Build/x86-linux/Components/GAMs/UTCTimestampingGAM
+	../Build/x86-linux/Components/GAMs/DownsamplingGAM
+	../Build/x86-linux/Components/GAMs/InversionGAM
+	../Build/x86-linux/Components/GAMs/InvertedPendulumGAM
+	../Build/x86-linux/Components/Lib/DataSourceSignalChecker
+	../Build/x86-linux/Components/Lib/GAMSignalChecker
+	../Build/x86-linux/Components/Lib/SerialBuffer
+Main.sh | MARTe2_DIR=/home/astephen/git-wd/InvertedPendulumTestA/MARTe2
+[Debug - Bootstrap.cpp:79]: Arguments:
+-l = "RealTimeLoader"
+-f = "/home/astephen/github.com/AdamVStephen/thinking-in-marte/Examples/LinuxTimer/Configurations/LinuxTimer_1_3.cfg"
+-s = "State1"
+
+[Information - Bootstrap.cpp:201]: Loader parameters:
+-l = "RealTimeLoader"
+-f = "/home/astephen/github.com/AdamVStephen/thinking-in-marte/Examples/LinuxTimer/Configurations/LinuxTimer_1_3.cfg"
+-s =
+[Information - Loader.cpp:67]: DefaultCPUs set to 1
+[Information - Loader.cpp:74]: SchedulerGranularity is 10000
+[Debug - AnyTypeCreator.cpp:143]: ToType: Type not found or not set (an explicit cast is likely to be missing); automatic cast to C-string
+[Debug - Loader.cpp:189]: Purging ObjectRegistryDatabase with 0 objects
+[Debug - Loader.cpp:192]: Purge ObjectRegistryDatabase. Number of objects left: 0
+[Warning - LoadableLibrary.cpp:78]: LoadableLibrary: Failed dlopen(): LinuxTimer.gam: cannot open shared object file: No such file or directory
+[Warning - LoadableLibrary.cpp:78]: LoadableLibrary: Failed dlopen(): LinuxTimer.drv: cannot open shared object file: No such file or directory
+[Information - LinuxTimer.cpp:130]: Phase manually configured to 0
+[Warning - LinuxTimer.cpp:164]: ExecutionMode not specified using: IndependentThread
+[Warning - LinuxTimer.cpp:185]: CPUMask not specified using: 255
+[Warning - LinuxTimer.cpp:191]: StackSize not specified using: 262144
+[Information - LinuxTimer.cpp:236]: No timer provider specified. Falling back to HighResolutionTimeProvider
+[Information - HighResolutionTimeProvider.cpp:153]: Default sleep nature selected (Sleep::NoMore mode)
+[Information - HighResolutionTimeProvider.cpp:154]: NoMore delegate selected
+[Information - HighResolutionTimeProvider.cpp:61]: Inner initialization succeeded
+[Information - LinuxTimer.cpp:267]: Backward compatibility parameters injection unnecessary
+[Information - LinuxTimer.cpp:130]: Phase manually configured to 500000
+[Warning - LinuxTimer.cpp:164]: ExecutionMode not specified using: IndependentThread
+[Warning - LinuxTimer.cpp:185]: CPUMask not specified using: 255
+[Warning - LinuxTimer.cpp:191]: StackSize not specified using: 262144
+[Information - LinuxTimer.cpp:236]: No timer provider specified. Falling back to HighResolutionTimeProvider
+[Information - HighResolutionTimeProvider.cpp:153]: Default sleep nature selected (Sleep::NoMore mode)
+[Information - HighResolutionTimeProvider.cpp:154]: NoMore delegate selected
+[Information - HighResolutionTimeProvider.cpp:61]: Inner initialization succeeded
+[Information - LinuxTimer.cpp:267]: Backward compatibility parameters injection unnecessary
+[Warning - LoadableLibrary.cpp:78]: LoadableLibrary: Failed dlopen(): LoggerDataSource.gam: cannot open shared object file: No such file or directory
+[Warning - LoadableLibrary.cpp:78]: LoadableLibrary: Failed dlopen(): LoggerDataSource.drv: cannot open shared object file: No such file or directory
+[Warning - LoadableLibrary.cpp:78]: LoadableLibrary: Failed dlopen(): IOGAM.gam: cannot open shared object file: No such file or directory
+[Warning - LoadableLibrary.cpp:78]: LoadableLibrary: Failed dlopen(): IOGAM.drv: cannot open shared object file: No such file or directory
+[Information - RealTimeThread.cpp:193]: No StackSize defined for the RealTimeThread Thread1
+[Information - RealTimeThread.cpp:193]: No StackSize defined for the RealTimeThread Thread2
+[Information - Loader.cpp:401]: LoaderPostInit not set
+[Information - RealTimeApplication.cpp:213]: Going to rtAppBuilder.ConfigureAfterInitialisation()
+[Information - RealTimeApplicationConfigurationBuilder.cpp:88]: Going to InitialiseSignalsDatabase
+[Information - RealTimeApplicationConfigurationBuilder.cpp:94]: Going to FlattenSignalsDatabases
+[Information - RealTimeApplicationConfigurationBuilder.cpp:447]: Caching introspection signals
+[Information - RealTimeApplicationConfigurationBuilder.cpp:453]: Flattening functions input signals
+[Debug - RealTimeApplicationConfigurationBuilder.cpp:615]: Updating the signal database
+[Debug - RealTimeApplicationConfigurationBuilder.cpp:617]: Finished updating the signal database
+[Debug - RealTimeApplicationConfigurationBuilder.cpp:615]: Updating the signal database
+[Debug - RealTimeApplicationConfigurationBuilder.cpp:617]: Finished updating the signal database
+[Information - RealTimeApplicationConfigurationBuilder.cpp:460]: Flattening functions output signals
+[Debug - RealTimeApplicationConfigurationBuilder.cpp:615]: Updating the signal database
+[Debug - RealTimeApplicationConfigurationBuilder.cpp:617]: Finished updating the signal database
+[Debug - RealTimeApplicationConfigurationBuilder.cpp:615]: Updating the signal database
+[Debug - RealTimeApplicationConfigurationBuilder.cpp:617]: Finished updating the signal database
+[Information - RealTimeApplicationConfigurationBuilder.cpp:467]: Flattening data sources signals
+[Debug - RealTimeApplicationConfigurationBuilder.cpp:615]: Updating the signal database
+[Debug - RealTimeApplicationConfigurationBuilder.cpp:617]: Finished updating the signal database
+[Debug - RealTimeApplicationConfigurationBuilder.cpp:615]: Updating the signal database
+[Debug - RealTimeApplicationConfigurationBuilder.cpp:617]: Finished updating the signal database
+[Debug - RealTimeApplicationConfigurationBuilder.cpp:615]: Updating the signal database
+[Debug - RealTimeApplicationConfigurationBuilder.cpp:617]: Finished updating the signal database
+[Debug - RealTimeApplicationConfigurationBuilder.cpp:615]: Updating the signal database
+[Debug - RealTimeApplicationConfigurationBuilder.cpp:617]: Finished updating the signal database
+[Information - RealTimeApplicationConfigurationBuilder.cpp:101]: Going to ResolveStates
+[Information - RealTimeApplicationConfigurationBuilder.cpp:1511]: Resolving state State1
+[Information - RealTimeApplicationConfigurationBuilder.cpp:1521]: Resolving thread container Threads
+[Information - RealTimeApplicationConfigurationBuilder.cpp:1537]: Resolving thread State1.Thread1
+[Information - RealTimeApplicationConfigurationBuilder.cpp:1569]: Resolving Clock_A
+[Information - RealTimeApplicationConfigurationBuilder.cpp:1537]: Resolving thread State1.Thread2
+[Information - RealTimeApplicationConfigurationBuilder.cpp:1569]: Resolving Clock_B
+[Information - RealTimeApplicationConfigurationBuilder.cpp:108]: Going to ResolveDataSources
+[Information - RealTimeApplicationConfigurationBuilder.cpp:931]: Resolving for function Clock_A [idx: 0]
+[Information - RealTimeApplicationConfigurationBuilder.cpp:961]: Resolving 5 signals
+[Information - RealTimeApplicationConfigurationBuilder.cpp:961]: Resolving 5 signals
+[Information - RealTimeApplicationConfigurationBuilder.cpp:931]: Resolving for function Clock_B [idx: 1]
+[Information - RealTimeApplicationConfigurationBuilder.cpp:961]: Resolving 5 signals
+[Information - RealTimeApplicationConfigurationBuilder.cpp:961]: Resolving 5 signals
+[Information - RealTimeApplicationConfigurationBuilder.cpp:115]: Going to VerifyDataSourcesSignals
+[Information - RealTimeApplicationConfigurationBuilder.cpp:1317]: Verifying signals for Timer_A
+[Information - RealTimeApplicationConfigurationBuilder.cpp:1317]: Verifying signals for Timer_B
+[Information - RealTimeApplicationConfigurationBuilder.cpp:1317]: Verifying signals for LoggerDataSource
+[Information - RealTimeApplicationConfigurationBuilder.cpp:1317]: Verifying signals for Timings
+[Information - RealTimeApplicationConfigurationBuilder.cpp:122]: Going to VerifyConsumersAndProducers
+[Information - RealTimeApplicationConfigurationBuilder.cpp:2240]: Verifying consumers and producers for Timer_A
+[Information - RealTimeApplicationConfigurationBuilder.cpp:2240]: Verifying consumers and producers for Timer_B
+[Information - RealTimeApplicationConfigurationBuilder.cpp:2240]: Verifying consumers and producers for LoggerDataSource
+[Information - RealTimeApplicationConfigurationBuilder.cpp:2240]: Verifying consumers and producers for Timings
+[Information - RealTimeApplicationConfigurationBuilder.cpp:128]: Going to CleanCaches
+[Debug - RealTimeApplicationConfigurationBuilder.cpp:3993]: Purging dataSourcesIndexesCache. Number of children:10
+[Debug - RealTimeApplicationConfigurationBuilder.cpp:3995]: Purging functionsIndexesCache. Number of children:2
+[Debug - RealTimeApplicationConfigurationBuilder.cpp:3997]: Purging dataSourcesSignalIndexCache. Number of children:10
+[Debug - RealTimeApplicationConfigurationBuilder.cpp:4000]: Purging dataSourcesFunctionIndexesCache. Number of children:2
+[Debug - RealTimeApplicationConfigurationBuilder.cpp:4003]: Purging functionsMemoryIndexesCache. Number of children:1
+[Debug - RealTimeApplicationConfigurationBuilder.cpp:4006]: Purged functionsMemoryIndexesCache. Number of children:0
+[Debug - RealTimeApplicationConfigurationBuilder.cpp:4008]: Purged cachedIntrospections. Number of children:0
+[Information - RealTimeApplication.cpp:219]: Going to rtAppBuilder.PostConfigureDataSources()
+[Information - RealTimeApplication.cpp:226]: Going to rtAppBuilder.PostConfigureFunctions()
+[Information - RealTimeApplication.cpp:233]: Going to rtAppBuilder.Copy()
+[Information - RealTimeApplication.cpp:240]: Going to AllocateGAMMemory
+[Information - RealTimeApplication.cpp:247]: Going to AllocateDataSourceMemory()
+[Information - RealTimeApplication.cpp:254]: Going to AddBrokersToFunctions
+[Information - DataSourceI.cpp:725]: Creating broker MemoryMapInputBroker for Clock_A and signal Counter(0)
+[Information - DataSourceI.cpp:725]: Creating broker MemoryMapSynchronisedInputBroker for Clock_A and signal Time(1)
+[Information - RealTimeApplication.cpp:443]: Getting input brokers for Timer_A
+[Information - RealTimeApplication.cpp:446]: Getting output brokers for Timer_A
+[Information - DataSourceI.cpp:725]: Creating broker MemoryMapInputBroker for Clock_B and signal Counter(0)
+[Information - DataSourceI.cpp:725]: Creating broker MemoryMapSynchronisedInputBroker for Clock_B and signal Time(1)
+[Information - RealTimeApplication.cpp:443]: Getting input brokers for Timer_B
+[Information - RealTimeApplication.cpp:446]: Getting output brokers for Timer_B
+[Information - RealTimeApplication.cpp:443]: Getting input brokers for LoggerDataSource
+[Information - RealTimeApplication.cpp:446]: Getting output brokers for LoggerDataSource
+[Information - RealTimeApplication.cpp:443]: Getting input brokers for Timings
+[Information - RealTimeApplication.cpp:446]: Getting output brokers for Timings
+[Information - RealTimeApplication.cpp:261]: Going to FindStatefulDataSources
+[Information - RealTimeApplication.cpp:268]: Going to configure scheduler
+[Information - RealTimeLoader.cpp:106]: Preparing state State1 
+[Information - LinuxTimer.cpp:482]: Frequency found = 1.000000
+[Information - LinuxTimer.cpp:482]: Frequency found = 1.000000
+[Information - LinuxTimer.cpp:482]: Frequency found = 1.000000
+[Information - LinuxTimer.cpp:482]: Frequency found = 1.000000
+[Information - LinuxTimer.cpp:482]: Frequency found = 1.000000
+[Information - LinuxTimer.cpp:505]: The timer will be set using a frequency of 1.000000 Hz
+[FatalError - StringHelper.cpp:60]: Error: invalid input arguments
+[Warning - Threads.cpp:173]: Requested a thread priority that is higher than the one supported by the selected policy - clipping to the maximum value supported by the policy.
+[Warning - Threads.cpp:185]: Failed to change the thread priority (likely due to insufficient permissions)
+[Information - LinuxTimer.cpp:543]: LinuxTimer::Prepared = true
+[Information - LinuxTimer.cpp:482]: Frequency found = 1.000000
+[Information - LinuxTimer.cpp:482]: Frequency found = 1.000000
+[Information - LinuxTimer.cpp:482]: Frequency found = 1.000000
+[Information - LinuxTimer.cpp:482]: Frequency found = 1.000000
+[Information - LinuxTimer.cpp:482]: Frequency found = 1.000000
+[Information - LinuxTimer.cpp:505]: The timer will be set using a frequency of 1.000000 Hz
+[FatalError - StringHelper.cpp:60]: Error: invalid input arguments
+[Warning - Threads.cpp:173]: Requested a thread priority that is higher than the one supported by the selected policy - clipping to the maximum value supported by the policy.
+[Warning - Threads.cpp:185]: Failed to change the thread priority (likely due to insufficient permissions)
+[Information - LinuxTimer.cpp:543]: LinuxTimer::Prepared = true
+[Warning - Threads.cpp:173]: Requested a thread priority that is higher than the one supported by the selected policy - clipping to the maximum value supported by the policy.
+[Warning - Threads.cpp:185]: Failed to change the thread priority (likely due to insufficient permissions)
+[Warning - Threads.cpp:173]: Requested a thread priority that is higher than the one supported by the selected policy - clipping to the maximum value supported by the policy.
+[Warning - Threads.cpp:185]: Failed to change the thread priority (likely due to insufficient permissions)
+[Information - RealTimeLoader.cpp:111]: Started application in state State1 
+[Information - MARTeApp.cpp:131]: Application starting
+
+[Information - LoggerBroker.cpp:152]: Counter_B [0:0]:0
+[Information - LoggerBroker.cpp:152]: Time_B [0:0]:0
+[Information - LoggerBroker.cpp:152]: AbsoluteTime_B [0:0]:114625064436
+[Information - LoggerBroker.cpp:152]: DeltaTime_B [0:0]:18446744073709487180
+[Information - LoggerBroker.cpp:152]: TrigRephase_B [0:0]:0
+
+[Information - LoggerBroker.cpp:152]: Counter [0:0]:1
+[Information - LoggerBroker.cpp:152]: Time [0:0]:0
+[Information - LoggerBroker.cpp:152]: AbsoluteTime [0:0]:114625564244
+[Information - LoggerBroker.cpp:152]: DeltaTime [0:0]:435756
+[Information - LoggerBroker.cpp:152]: TrigRephase [0:0]:0
+
+[Information - LoggerBroker.cpp:152]: Counter_B [0:0]:1
+[Information - LoggerBroker.cpp:152]: Time_B [0:0]:1000000
+[Information - LoggerBroker.cpp:152]: AbsoluteTime_B [0:0]:114626064436
+[Information - LoggerBroker.cpp:152]: DeltaTime_B [0:0]:1000000
+[Information - LoggerBroker.cpp:152]: TrigRephase_B [0:0]:0
+
+[Information - LoggerBroker.cpp:152]: Counter [0:0]:2
+[Information - LoggerBroker.cpp:152]: Time [0:0]:2000000
+[Information - LoggerBroker.cpp:152]: AbsoluteTime [0:0]:114626564244
+[Information - LoggerBroker.cpp:152]: DeltaTime [0:0]:1000000
+[Information - LoggerBroker.cpp:152]: TrigRephase [0:0]:0
+
+
+[Information - LoggerBroker.cpp:152]: Counter_B [0:0]:2
+[Information - LoggerBroker.cpp:152]: Time_B [0:0]:2000000
+[Information - LoggerBroker.cpp:152]: AbsoluteTime_B [0:0]:114627064436
+[Information - LoggerBroker.cpp:152]: DeltaTime_B [0:0]:1000000
+[Information - LoggerBroker.cpp:152]: TrigRephase_B [0:0]:0
+[Information - LoggerBroker.cpp:152]: Counter [0:0]:3
+[Information - LoggerBroker.cpp:152]: Time [0:0]:3000000
+[Information - LoggerBroker.cpp:152]: AbsoluteTime [0:0]:114627564244
+[Information - LoggerBroker.cpp:152]: DeltaTime [0:0]:1000000
+[Information - LoggerBroker.cpp:152]: TrigRephase [0:0]:0
+[Information - LoggerBroker.cpp:152]: Counter_B [0:0]:3
+[Information - LoggerBroker.cpp:152]: Time_B [0:0]:3000000
+[Information - LoggerBroker.cpp:152]: AbsoluteTime_B [0:0]:114628064436
+[Information - LoggerBroker.cpp:152]: DeltaTime_B [0:0]:1000000
+[Information - LoggerBroker.cpp:152]: TrigRephase_B [0:0]:0
+[Information - LoggerBroker.cpp:152]: Counter [0:0]:4
+[Information - LoggerBroker.cpp:152]: Time [0:0]:4000000
+[Information - LoggerBroker.cpp:152]: AbsoluteTime [0:0]:114628564244
+[Information - LoggerBroker.cpp:152]: DeltaTime [0:0]:1000000
+[Information - LoggerBroker.cpp:152]: TrigRephase [0:0]:0
+[Information - LoggerBroker.cpp:152]: Counter_B [0:0]:4
+[Information - LoggerBroker.cpp:152]: Time_B [0:0]:4000000
+[Information - LoggerBroker.cpp:152]: AbsoluteTime_B [0:0]:114629064436
+[Information - LoggerBroker.cpp:152]: DeltaTime_B [0:0]:1000000
+[Information - LoggerBroker.cpp:152]: TrigRephase_B [0:0]:0
+[Information - LoggerBroker.cpp:152]: Counter [0:0]:5
+[Information - LoggerBroker.cpp:152]: Time [0:0]:5000000
+[Information - LoggerBroker.cpp:152]: AbsoluteTime [0:0]:114629564244
+[Information - LoggerBroker.cpp:152]: DeltaTime [0:0]:1000000
+[Information - LoggerBroker.cpp:152]: TrigRephase [0:0]:0
+[Information - LoggerBroker.cpp:152]: Counter_B [0:0]:5
+[Information - LoggerBroker.cpp:152]: Time_B [0:0]:5000000
+[Information - LoggerBroker.cpp:152]: AbsoluteTime_B [0:0]:114630064436
+[Information - LoggerBroker.cpp:152]: DeltaTime_B [0:0]:1000000
+[Information - LoggerBroker.cpp:152]: TrigRephase_B [0:0]:0
+[Information - LoggerBroker.cpp:152]: Counter [0:0]:6
+[I
