@@ -13,7 +13,7 @@ For other MARTe/2 resources see [MARTe2-resources](MARTe2_Resources.md)
 
 ### LinuxTimer
 
-#### LinuxTimer-1
+#### [LinuxTimer_1_1](Examples/LinuxTimer/LinuxTimer_1_1.cfg)
 
 A minimal demonstration of the LinuxTimer generating outputs at 1Hz and providing `Counter` and `Time` 
 to the console via a Logger.
