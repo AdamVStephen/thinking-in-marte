@@ -13,10 +13,16 @@ For other MARTe/2 resources see [MARTe2-resources](MARTe2_Resources.md)
 
 ### LinuxTimer
 
-#### [LinuxTimer_1_1](Examples/LinuxTimer/LinuxTimer_1_1.cfg)
+#### [LinuxTimer_1_1](Examples/LinuxTimer/Configurations/LinuxTimer_1_1.cfg)
 
 A minimal demonstration of the LinuxTimer generating outputs at 1Hz and providing `Counter` and `Time` 
 to the console via a Logger.
+
+The [configuration][11C] and [output][11O] are provided.  The [README][11R] in the folder explains how to run it.
+
+[11C]: https://github.com/AdamVStephen/thinking-in-marte/Examples/LinuxTimer/Configurations/LinuxTimer_1_1.cfg
+[11O]: https://github.com/AdamVStephen/thinking-in-marte/Examples/LinuxTimer/Output/LinuxTimer_1_1.out
+[11R]: https://github.com/AdamVStephen/thinking-in-marte/Examples/LinuxTimer/README.md
 
 #### LinuxTimer-2
 
