@@ -24,12 +24,22 @@ The [configuration][11C] and [output][11O] are provided.  The [README][11R] in t
 [11O]: https://github.com/AdamVStephen/thinking-in-marte/tree/main/Examples/LinuxTimer/Output/LinuxTimer_1_1.out
 [11R]: https://github.com/AdamVStephen/thinking-in-marte/tree/main/Examples/LinuxTimer/README.md
 
-Are [relative links][11rel] supported ?
+<!--
+-Are [relative links][11rel] supported ?
 
 [11rel]: (Examples/LinuxTimer/Configurations/LinuxTimer_1_1.cfg)
 
-#### LinuxTimer-2
+The answer is No!
+-->
 
-A minimal demonstration of the LinuxTimer generating outputs at 1Hz and providing `Counter` and `Time` 
+#### [LinuxTimer-2](Examples/LinuxTimer/Configurations/LinuxTimer_1_2.cfg)
+
+An expanded demonstration of [1_1](#LinuxTimer_1_1) generating outputs at 1Hz and providing 
+`Counter`, `Time`, `AbsoluteTime`, `DeltaTime` and `TrigRephase`
 to the console via a Logger.
 
+The [configuration][12C] and [output][12O] are provided.  The [README][12R] in the folder explains how to run it.
+
+[12C]: https://github.com/AdamVStephen/thinking-in-marte/tree/main/Examples/LinuxTimer/Configurations/LinuxTimer_1_2.cfg
+[12O]: https://github.com/AdamVStephen/thinking-in-marte/tree/main/Examples/LinuxTimer/Output/LinuxTimer_1_2.out
+[12R]: https://github.com/AdamVStephen/thinking-in-marte/tree/main/Examples/LinuxTimer/README.md
