@@ -7,4 +7,4 @@ working in Fusion Energy research.  A starting point to find out more is https:/
 
 ## AdamVStephen Repositories
 
-1. (MARTe2-utils)[https://github.com/AdamVStephen/MARTe2-utils]
+1. [MARTe2-utils](https://github.com/AdamVStephen/MARTe2-utils)
