@@ -20,9 +20,13 @@ to the console via a Logger.
 
 The [configuration][11C] and [output][11O] are provided.  The [README][11R] in the folder explains how to run it.
 
-[11C]: https://github.com/AdamVStephen/thinking-in-marte/Examples/LinuxTimer/Configurations/LinuxTimer_1_1.cfg
-[11O]: https://github.com/AdamVStephen/thinking-in-marte/Examples/LinuxTimer/Output/LinuxTimer_1_1.out
-[11R]: https://github.com/AdamVStephen/thinking-in-marte/Examples/LinuxTimer/README.md
+[11C]: https://github.com/AdamVStephen/thinking-in-marte/tree/main/Examples/LinuxTimer/Configurations/LinuxTimer_1_1.cfg
+[11O]: https://github.com/AdamVStephen/thinking-in-marte/tree/main/Examples/LinuxTimer/Output/LinuxTimer_1_1.out
+[11R]: https://github.com/AdamVStephen/thinking-in-marte/tree/main/Examples/LinuxTimer/README.md
+
+Are [relative links][11rel] supported ?
+
+[11rel]: (Examples/LinuxTimer/Configurations/LinuxTimer_1_1.cfg)
 
 #### LinuxTimer-2
 
